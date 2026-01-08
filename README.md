@@ -1,37 +1,24 @@
-# Restock
+# Restock_Updated
 
-Automatically restocks your inventory from nearby chests when items run low.
+Automatically restocks your inventory from nearby chests. Updated for EMU 6.x compatibility.
 
-## Features
+## Original Author
 
-- Auto-restock from nearby chests
-- **Configurable Cooldown** - Adjust scan frequency (0.1-5s, default 0.5s)
-- Works with all chest types
+This mod is based on the original work by **Equinox**: [https://thunderstore.io/c/techtonica/p/Equinox/Restock/](https://thunderstore.io/c/techtonica/p/Equinox/Restock/)
 
-## Requirements
+## Updated By
 
-- BepInEx 5.4.21+
-- EquinoxsModUtils 6.1.3+
-- EMUAdditions 2.0.0+
+- **CertiFried** - Updated for EMU 6.x API compatibility and maintained
 
-## Installation
+## Development Assistance
 
-Install via r2modman or manually place the DLL in your BepInEx/plugins folder.
+- **Claude Code** (Anthropic) - AI-assisted development and documentation
 
-## Credits
+## License
 
-- Original mod by Equinox (https://github.com/CubeSuite/TTMod-Restock)
-- Updated and maintained by CertiFried
+This project is licensed under the **GNU General Public License v3.0** (GPL-3.0).
 
-## Changelog
+## Links
 
-### [3.0.6] - 2025-01-05
-- Version bump for bulk update
-
-### [3.0.3] - 2025-01-03
-- Configurable restock cooldown (default 0.5s)
-- Significantly reduced CPU overhead
-
-### [3.0.0] - 2025-01-02
-- Fixed duplicate key error from SafeResources list
-- API Migration to EMU 6.1.3 nested class structure
+- **Thunderstore**: [CertiFried's Mods](https://thunderstore.io/c/techtonica/p/CertiFried/)
+- **Original Mod**: [Equinox's Restock](https://thunderstore.io/c/techtonica/p/Equinox/Restock/)
